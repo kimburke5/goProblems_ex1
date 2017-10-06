@@ -17,7 +17,6 @@ func xrand(min, max int) int {
 
 func main() {
 	//initializing variables
-    var myname string
     myrand := xrand(1, 50)
     guessTaken := 0
     var guess int
