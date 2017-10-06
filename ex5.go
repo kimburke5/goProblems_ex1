@@ -25,6 +25,8 @@ func main() {
     
     //for loop - allowing user to only hav 10 tries
     for guessTaken < 10 {
+		//Game does not have validation, it will not crash if a letter is entered
+		//Also will not show any error of entry if a letter is entered
         fmt.Println("Take a guess...")
         fmt.Scanf("%d", &guess)
 		fmt.Scanf("%d")
