@@ -10,11 +10,11 @@ func main() {
     for i := 1; i <= 100; i++ {
 
         if i%3 == 0 {
-            // Multiple of 3
+            // Multiple of 3 - prints fizz
             fmt.Printf("fizz")
         }
         if i%5 == 0 {
-            // Multiple of 5
+            // Multiple of 5 - prints buzz
             fmt.Printf("buzz")
         }
 
